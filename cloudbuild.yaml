@@ -3,4 +3,3 @@ steps:
     args: ["build", "-t", "gcr.io/$amirdeploy/my-nodejs-app", "."]
 images:
   - "gcr.io/$amirdeploy/my-nodejs-app"
-logging: CLOUD_LOGGING_ONLY
